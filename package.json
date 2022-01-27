@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "5.2.1"
+    "node": "6.11.1"
   },
   "name": "tasty-memory-game",
   "version": "0.0.2",
