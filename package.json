@@ -2,7 +2,7 @@
   "engines": {
     "node": "6.11.1"
   },
-  "name": "tasty-memory-game",
+  "name": "karafuru-memory-game",
   "version": "0.0.2",
   "description": "Redux implementation of Memory Game",
   "main": "index.js",
