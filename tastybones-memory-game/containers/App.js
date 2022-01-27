@@ -26,7 +26,7 @@ class App extends Component {
 
         return (
             <div className="container">
-                <Header round={memory.round} restart={actions.restart} />
+                {/* <Header round={memory.round} restart={actions.restart} /> */}
                 <CardList cards={memory.cards} flipCard={actions.flipCard} />
             </div>
         )
