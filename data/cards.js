@@ -13,14 +13,14 @@ export default () => {
       id: i,
       rel: i + 1,
       flipped: false,
-      url: `tastybones/${r}.jpeg`,
+      url: `karafuru/${r}.jpeg`,
       discovered: false,
     });
     cards.push({
       id: i + 1,
       rel: i,
       flipped: false,
-      url: `/tastybones/${r}.jpeg`,
+      url: `/karafuru/${r}.jpeg`,
       discovered: false,
     });
   }

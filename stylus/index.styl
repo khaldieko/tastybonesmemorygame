@@ -1,0 +1,45 @@
+$size = 40px
+
+.logo
+    width  $size
+    height $size
+    position relative
+
+    svg, div
+        width  $size
+        height $size
+        position absolute
+
+    svg
+        fill: white
+
+    div
+        width  $size * .8
+        height $size * .8
+        margin $size * .1
+        border-radius: 20%
+        transform rotate(45deg)
+        mix-blend-mode multiply
+        animation: 2s cubic-bezier(.66,-.7, .27, 1.6) infinite
+
+        &:nth-child(1)
+            background-color rgb(41, 255, 255)
+            animation-name rotate-1
+        &:nth-child(2)
+            background-color rgb(255, 101, 255)
+            animation-name rotate-2
+        &:nth-child(3)
+            background-color rgb(255, 255, 204)
+            animation-name rotate-3
+
+$r = 45deg
+
+@keyframes rotate-1
+    to
+        transform rotate($r * 3)
+@keyframes rotate-2
+    to
+        transform rotate($r * 5)
+@keyframes rotate-3
+    to
+        transform rotate($r * 7)
