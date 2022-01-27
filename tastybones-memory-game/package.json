@@ -19,7 +19,7 @@
     "url": "https://github.com/khaldieko/tastybonesmemorygame.git"
   },
   "author": "khal dieko",
-  "homepage": "https://khaldieko.github.io",
+  "homepage": "https://khaldieko.github.io/tasty-bones-game",
   "license": "MIT",
   "dependencies": {
     "babel": "^5.8.23",
