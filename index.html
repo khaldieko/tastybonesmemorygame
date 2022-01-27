@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tasty Bones</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link
+    href=https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css
+    rel=stylesheet>
+  </head>
+  <body class="site">
+    <header class="site-header">
+      <div class="header" role="banner">
+        <div class="header-titles">
+          <h1 class="header-title">
+            <div class="sign">
+              <span class="fast-flicker">Tas</span>ty <span class="flicker">Bone </span>s
+            </div>
+          
+          </h1>
+        </div>
+        <div class="header-actions">
+          <a
+            class="header-button button button--success"
+            href="https://github.com/khaldieko/tastybonesmemorygame.git"
+            target="_blank"
+          >
+            <span class="icon-github icon-large"></span>&nbsp; View Project
+            Source
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="site-content">
+      <div id="root"></div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer">
+        
+        <div class="footer-credits">
+          <span class="footer-credit"
+            >Created by
+            <a href="https://twitter.com/KhalDieko">Khal Dieko</a></span
+          >
+          
+          
+          <br />
+          <span class="footer-credit"
+            > Images by
+            <a href="https://tastybones.xyz/">Tasty Bones</span
+          >
+          <br />
+         
+        </div>
+      </div>
+    </footer>
+
+    <script src="./dist/bundle.js" type="text/javaScript"></script>
+    <script>
+      !(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0],
+          p = /^http:/.test(d.location) ? "http" : "https";
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = p + "://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      })(document, "script", "twitter-wjs");
+    </script>
+  </body>
+</html>
